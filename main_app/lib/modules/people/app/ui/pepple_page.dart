@@ -1,0 +1,44 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:main_app/modules/people/app/widget/people_item_widget.dart';
+
+class PeoplePage extends StatefulWidget {
+  const PeoplePage({super.key});
+
+  @override
+  State<PeoplePage> createState() => _PeoplePageState();
+}
+
+class _PeoplePageState extends State<PeoplePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.amber.withOpacity(0.15),
+      appBar: AppBar(
+        title: Text(
+          "List People".toUpperCase(),
+          style: GoogleFonts.libreBaskerville(
+            fontStyle: FontStyle.italic,
+            fontSize: 24.sp,
+            color: Colors.white,
+            fontWeight: FontWeight.w600,
+          ),
+        ),
+        backgroundColor: Colors.orange,
+        automaticallyImplyLeading: false,
+        centerTitle: true,
+      ),
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: EdgeInsets.all(15.sp),
+          child: const Column(
+            children: [
+              PeopleItemWidget(),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
