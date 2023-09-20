@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "562525118753",
+    "project_id": "bmtnotification-f5440",
+    "storage_bucket": "bmtnotification-f5440.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562525118753:android:50385d8a5fccb5e6135e60",
+        "android_client_info": {
+          "package_name": "com.example.mainapp.bmt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562525118753-h7t29hn4gg6kp01u1a4j1qqfvsrk7a8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBpJK4zp6XrDsB5o6kdUgwT7p7Yq65RHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562525118753-h7t29hn4gg6kp01u1a4j1qqfvsrk7a8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
